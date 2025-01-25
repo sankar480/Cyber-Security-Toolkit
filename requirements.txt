@@ -1,0 +1,7 @@
+pip install streamlit
+pip install mailtm 
+pip install BeautifulSoup
+pip install cryptography
+pip install streamlit-lottie
+pip install pikepdf
+pip install pyperclip

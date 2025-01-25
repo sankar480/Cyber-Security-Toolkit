@@ -14,6 +14,10 @@ The Cyber Security Toolkit integrates various essential tools like encryption, p
 * Custom Cryptography Tool: Perform powerfull encryption and decryption.
 * User-Friendly Interface: A sidebar-based navigation system for frendly-user access to all tools.
 
+## Out Come of the Project ##
+
+https://github.com/user-attachments/assets/895c1866-bc9d-4838-a6c5-1eff2c6d3793
+
 ## 🛠 How It Works ##
 1. Navigation: Choose the tool you need from the sidebar menu.
 
@@ -40,5 +44,74 @@ The Cyber Security Toolkit integrates various essential tools like encryption, p
 ## 🔧 Getting Started ##
 1. Clone the repository:
 ```bash
-git clone
+git clone https://github.com/sankar480/Cyber-Security-Toolkit.git
+cd Cyber-Security-Toolkit
 ```
+2. Install the dependencies:
+```bash
+pip install -r requirements.txt
+```
+3. Run the app:
+```bash
+streamlit run easy.py
+```
+## File Structure ##
+cyber-security-toolkit/
+
+│
+
+├── easy.py                 # Main program file for managing navigation and app logic
+
+├── crypto.py               # Handles deterministic encryption and decryption
+
+├── file.py                 # Provides file encryption and decryption using Fernet
+
+├── password.py             # Generates customizable secure passwords
+
+├── link.py                 # Scans URLs to detect phishing threats
+
+├── pdf.py                  # Attempts to decrypt password-protected PDFs
+
+├── Home.py                 # Home page layout and introduction
+
+├── Email.py                # Temporary email generator
+
+├── requirements.txt        # List of dependencies for the project
+
+├── assets/                 # Directory for static assets
+
+│   ├── style.css           # Custom styles for Streamlit
+
+│   ├── images/             # Placeholder for images and logos
+
+│   │   ├── logo.png        # Logo for the app
+
+│   └── fonts/              # Placeholder for custom fonts
+
+│       ├── Poppins-Bold.ttf
+
+│       ├── Poppins-Medium.ttf
+
+│
+
+├── data/                   # Directory for sample or auxiliary files
+
+│   ├── sample.pdf          # Example PDF file for testing
+
+│   ├── wordlist.txt        # Wordlist file for PDF decryption
+
+│
+
+├── README.md               # Documentation for the project
+
+└── .gitignore              # Specifies files and directories to ignore in version control
+
+
+## 🛡 Security First ##
+I take security seriously. Always handle sensitive data responsibly and ensure you use strong passwords for critical operations. This toolkit is meant to aid security practices and not as a substitute for comprehensive cybersecurity measures.
+
+## 🤝 Contributing ##
+I welcome contributions! If you have ideas to improve or expand the toolkit, feel free to fork the repository, make changes, and submit a pull request.
+
+## 📬 Feedback ##
+Have suggestions or encountered issues? Open an issue on GitHub or contact us via email.
